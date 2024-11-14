@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main_heading {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+button {
+    padding: 8px;
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play_game{
+    background-color: darkgreen;
+}
+.Exit_game{
+    background-color: darkred;
+}
+button:hover {
+    background-color: #555;
+}
+
+#game-status {
+    text-align: center;
+    margin-top: 20px;
+}
